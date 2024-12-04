@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.min.css">
+    <link rel="stylesheet" href="kool.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <h1>Welcome to My Portfolio</h1>
+    </header>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hello, I'm Renier, a second-year Computer Science student passionate about making a significant impact in the cybersecurity field. I aspire to contribute to a safer digital world by enhancing security measures and protecting sensitive information from cyber threats and such.</p>
+    </section>
+
+    <section id="portfolio">
+        <h2>My Work</h2>
+        <div class="portfolio-items">
+            <div class="projects_box">
+                <img src="Project 1.png" alt="Project 1">
+                <div class="text-box">
+                    <h3>Project Website</h3>
+                    <p>This project was taught by our professor in our web development class. We were tasked to create a website using HTML, PHP and CSS. We hosted our servers locally and used a MySQL database to store user information.</p>
+                </div>
+            </div>
+
+            <div class="projects_box">
+                <img src="Project 2.png" alt="Project 2">
+                <div class="text-box">
+                    <div id="left">
+                    <h3>Project GUI</h3>
+                    <p>Here we were taught to use the import tkinter, and how to make use of several pages to cover one page in order to show several functions via a click of a button. But we are just beginning to learn the ropes of GUI.</p>
+                    </div>
+                    
+                    
+                    
+                </div>
+            </div>
+
+            <div class="projects_box">
+                <img src="Project 3.png" alt="Project 3">
+                <div class="text-box">
+                    <h3>Project Student system</h3>
+                    <p>Project Student System is the project that taught us deeper functionalities of python and how to properly and effectively execute them hand in hand without it looking like a mess</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form action="#" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 My Portfolio</p>
+    </footer>
+
+</body>
+</html>
